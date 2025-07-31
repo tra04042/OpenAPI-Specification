@@ -24,3 +24,5 @@ components:
 
 const parsedData = yaml.load(fileContent);
 console.log(parsedData);
+npm install -g @redocly/openapi-cli
+openapi lint path/to/comp_pathitems.yaml
